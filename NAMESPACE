@@ -1,0 +1,14 @@
+exportPattern("^[[:alpha:]]+")
+exportMethods(
+    "result",
+    "show",
+    "summary" 
+)
+exportClasses(
+    "characterOrNULL",
+     "data.frameOrNULL",
+     "listOrNULL",
+     "ltp.object" 
+)
+
+import(methods,R2HTML, hwriter, tseries, forecast, XML, xtable, reshape, googleVis)
